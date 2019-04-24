@@ -19,10 +19,10 @@ conda activate mlTutorials_gpu;
 
 pip install cython pydot;
 # source setup_environment.sh;
-export PYTHIA8=/xdata/epaarrish/mlhep2018/pythia8240;
-export PYTHIA_INCLUDE=/xdata/eparrish/mlhep2018/pythia8240/include;
-export PYTHIA_LIB=/xdata/eparrish/mlhep2018/pythia8240/lib;
-export LD_LIBRARY_PATH=/xdata/eparrish/mlhep2018/lib:$LD_LIBRARY_PATH;
+export PYTHIA8=/xdata/epaarrish/pythia8240;
+export PYTHIA_INCLUDE=/xdata/eparrish/pythia8240/include;
+export PYTHIA_LIB=/xdata/eparrish/pythia8240/lib;
+export LD_LIBRARY_PATH=/xdata/eparrish/pythia8240/lib:$LD_LIBRARY_PATH;
 pip install git+https://github.com/maxim-borisyak/pythia-mill.git@master
 
 # ssh -L localhost:1999:localhost:1999 eparrish@cms1.nicadd.niu.edu
