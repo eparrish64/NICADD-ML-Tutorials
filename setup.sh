@@ -12,7 +12,7 @@ bash Anaconda3-2019.03-Linux-x86_64.sh;
 source ~/.bashrc;
 conda config --set auto_activate_base false;
 # source ~/.bashrc;
-cd /xdata/$USER/NICADD-ML-Tutorials;
+cd -;
 conda env create -f mlTutorials_gpu.yml;
 conda activate mlTutorials_gpu;
 
