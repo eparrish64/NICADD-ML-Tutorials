@@ -140,6 +140,5 @@ dependencies:
   - pip:
     - cython==0.29.7
     - pydot==1.4.1
-    - pythia-mill==1.0.0
 prefix: /xdata/eparrish/miniconda3/envs/mlTutorials
 
