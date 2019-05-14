@@ -8,7 +8,7 @@ echo "Downloading and installing Anaconda installation script, this will take so
 echo "When asked, accept the user agreement";
 echo "Be sure to change install location to /xdata/USERNAME/anaconda3";
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh &&
-bash Miniconda3-latest-Linux-x86_65.sh && 
+bash Miniconda3-latest-Linux-x86_64.sh && 
 source ~/.bashrc &&
 conda config --set auto_activate_base false;
 cd -;
