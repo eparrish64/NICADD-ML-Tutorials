@@ -12,9 +12,9 @@ bash Miniconda3-latest-Linux-x86_64.sh &&
 source ~/.bashrc &&
 conda config --set auto_activate_base false;
 cd -;
-conda env create -f mlTutorials_gpu.yml &&
+conda env create -f mlTutorials.yml &&
 
-conda activate mlTutorials_gpu &&
+conda activate mlTutorials &&
 
 pip install cython pydot &&
 # source setup_environment.sh;
