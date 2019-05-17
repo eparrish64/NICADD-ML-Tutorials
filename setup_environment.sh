@@ -1,6 +1,6 @@
 #!/bin/bash
 
-conda activate mlTutorials_gpu;
+conda activate mlTutorials;
 
 export PYTHIA8=/xdata/epaarrish/pythia8240;
 export PYTHIA_INCLUDE=/xdata/eparrish/pythia8240/include;
